@@ -14,6 +14,8 @@ namespace BubbfillAlgorithm
             double x2 = double.Parse(Console.ReadLine());
             double x3 = 0 , x4 = 0;
             double slope = (Function(x1) - Function(2)) / (x1 - x2);
+
+
             
             switch (userDecision)
             {
